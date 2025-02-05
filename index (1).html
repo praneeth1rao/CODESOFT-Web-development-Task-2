@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">MernStack Development</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/ZAIDSHK41" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/shaikh-zaid-rizwan-2ba585271" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto: zaid@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Zaid Shaikh 👋</h2>
+        <p>A skilled web developer who solves problems and builds dynamic, user-friendly websites. Currently pursuing
+          studies in Electroni and Telecommunication, aiming to design, develop and analyze electronic systems and
+          communication networks and also to integrate these advanced technologies into digital solutions.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="zaidd.jpg" alt="Shaikh Zaid Rizwan">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">As an engineering student, I have developed strong technical skills in programming (Python,
+        HTML, CSS, JavaScript,nodejs
+        reactjs, git ,github, Bootstrap,Tailwind CSS) and circuit design. I am also experienced in working with Arduino,
+        Raspberry Pi, and PLC
+        programming for automation. Alongside my technical expertise, I possess problem-solving abilities, teamwork, and
+        leadership skills
+        allowing me to collaborate effectively on engineering projects. With a passion for innovation and continuous
+        learning, I strive to apply my knowledge to real-world challenges.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+
+        <div class="cell">
+          <img src="react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION 3: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          If would like to connect, feel free to reach out! Whether it's about engineering projects, collaborations, or
+          sharing ideas, Im always open to discussions. You can contact me via email or phone, and Im also active on
+          LinkedIn and GitHub. Let's innovate and create something amazing together!
+        </div>
+
+        <form action="action.php">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2024 ZaidCompany. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
